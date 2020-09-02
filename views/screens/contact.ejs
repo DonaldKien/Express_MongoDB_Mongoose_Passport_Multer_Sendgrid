@@ -1,0 +1,23 @@
+<%- include("../partials/header") %>
+
+
+<div id="loginRegisterBox" style="padding-top: 10vh">
+	
+    <div id="loginRegisterSubBox" class="mx-auto">
+		<h3>Contact Us</h3>
+        <form class="form-group" action="/contact" method="POST">
+			<label>Email
+				<input name="email" type="email" class="form-control" required />
+			</label>
+			<label>Message
+				<textarea name="message" id="Message" cols="30" rows="10" class="form-control" required></textarea>
+			</label>
+			<div>
+				<input type="submit" class="btn btn-primary">
+			</div>
+        </form>
+	</div>
+
+</div>
+	
+<%- include("../partials/footer") %>

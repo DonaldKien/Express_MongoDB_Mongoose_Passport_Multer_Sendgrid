@@ -1,0 +1,70 @@
+.card img {
+	width: 100%
+}
+
+.card {
+	padding: 0
+}
+
+.campgroundShowDetail {
+	padding: 10px
+}
+
+.showDetailAndComments {
+	height: 10px
+}
+
+#commentsBox {
+	padding: 10px
+}
+
+.img-thumbnail {
+	padding: 0
+}
+
+#show-delete-btn{
+	display:inline;
+}
+
+#show-edit-btn:hover {
+  color: white;
+}
+
+#loginRegisterBox {
+	padding-top:20vh
+}
+
+#loginRegisterSubBox{
+	padding: 60px 0 60px 0;
+	min-width: 300px;
+	max-width: 20%; 
+	margin: auto auto; 
+	text-align: center;
+	background-color: #ededed;
+	border-radius: 20px;
+}
+#inputLoginRegister {
+	text-align: center;
+}
+
+#spacing {
+	margin: 0;
+	padding: 0;
+	height: 10px;
+}
+
+#footerSpacing {
+	height: 80px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; 
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}

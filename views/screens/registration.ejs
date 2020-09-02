@@ -1,0 +1,24 @@
+<%- include("../partials/header") %>
+
+
+<div id="loginRegisterBox">
+	
+	<div id="loginRegisterSubBox" class="mx-auto">
+	<h1 class="text-center">REGISTER</h1>
+		<form action="/register" method="POST">
+			<input id="inputLoginRegister" class="col-xs-3" type="text" placeholder="Username" name="username"/>
+			<div id="spacing"></div>
+			<input id="inputLoginRegister" class="col-xs-3" type="email" placeholder="Email Address" name="email"/>
+			<div id="spacing"></div>
+			<input id="inputLoginRegister" class="col-xs-3" type="password" placeholder="Password" name="password"/>
+			<div id="spacing"></div>
+			<button class="btn btn-primary">
+				Submit
+			</button>
+		</form>
+
+	</div>
+
+</div>
+	
+<%- include("../partials/footer") %>
